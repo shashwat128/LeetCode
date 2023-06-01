@@ -1,4 +1,4 @@
-package easy;
+package easy.q1to50;
 
 public class Q1_Two_sums {
 

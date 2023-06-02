@@ -1,10 +1,8 @@
-package easy.q1to50;
+package easy.q1to20;
 
-import java.util.SortedMap;
-
-public class Q9_Palindrome_Number {
+public class Q9_Palindrome_Number_if_else_simplified_for_return {
     public static void main(String[] args) {
-        int num = 12321;
+        int num = 126464;
         boolean result = isPalindrome(num);
 
         if (result) {
@@ -23,9 +21,6 @@ public class Q9_Palindrome_Number {
             a = a/10;
         }
 
-        if(b == num)
-            return true;
-        else
-            return false;
+        return b == num;
     }
 }

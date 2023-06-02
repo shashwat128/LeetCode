@@ -21,6 +21,7 @@ public class Q9_Palindrome_Number {
             a = a/10;
         }
 
+        // this is a better solution as it consumes less space
         if(b == num)
             return true;
         else

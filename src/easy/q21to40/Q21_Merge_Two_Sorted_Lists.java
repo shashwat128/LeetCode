@@ -10,7 +10,7 @@ class ListNode {
     }
 }
 
-public class Q26_Removes_Duplicates_from_Sorted_Array {
+public class Q21_Merge_Two_Sorted_Lists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(-1);
         ListNode newList = head;
@@ -44,7 +44,7 @@ public class Q26_Removes_Duplicates_from_Sorted_Array {
         list2.next = new ListNode(4);
         list2.next.next = new ListNode(6);
 
-        Q26_Removes_Duplicates_from_Sorted_Array sol = new Q26_Removes_Duplicates_from_Sorted_Array();
+        Q21_Merge_Two_Sorted_Lists sol = new Q21_Merge_Two_Sorted_Lists();
         ListNode mergedList = sol.mergeTwoLists(list1, list2);
 
         // Printing the merged list

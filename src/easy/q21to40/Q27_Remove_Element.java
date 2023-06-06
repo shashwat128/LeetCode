@@ -31,7 +31,9 @@ public class Q27_Remove_Element {
     }
     }
 
+
 /*
+
 
 * 27. Remove Element
 Easy

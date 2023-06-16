@@ -25,7 +25,6 @@ public class Q69_Sqrt_x {
     }
 }
 
-
 /*
 *
 * 69. Sqrt(x)
